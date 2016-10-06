@@ -5,6 +5,60 @@
     <title>情報基礎２第2回</title>
   </head>
   <body>
-    
+    <dl>
+  <h1>address要素</h1>
+  <h2>HTML ＜address＞要素は、祖先要素の内、直近の ＜article＞ 要素か ＜body＞ 要素の著作者の連絡先情報を表します。後者の場合は、ドキュメント全体に適用します。</h2>
+  <h3>例</h3>
+  <code>
+      &lt;address&gt;
+    You can contact author at &lt;a href="http://www.somedomain.com/contact"&gt;www.somedomain.com&lt;/a&gt;.&lt;br&gt;
+    If you see any bugs, please &lt;a href="mailto:webmaster@somedomain.com"&gt;contact webmaster&lt;/a&gt;.&lt;br&gt;
+    &lt;/address&gt;
+  </code>
+
+  <h1>p要素</h1>
+  <h2>HTML ＜p＞ 要素 (HTML パラグラフ要素) は、パラグラフ (段落) を表します。パラグラフはブロックレベル要素です。</h2>
+  <h3>例</h3>
+  <code>
+       &lt;p&gt;This is the first paragraph of text. これは最初のテキストの段落です。 
+  This is the first paragraph of text. これは最初のテキストの段落です。  &lt;/p&gt;
+  </code>
+
+<h1>*</h1>
+<h2>アスタリスク（*）ですべての要素にスタイルを適用することができます。</h2>
+<h3>例</h3>
+<code>
+      p * {
+        color:red;
+    }
+   <p> p要素の中にある要素すべてに適用されます。</p>
+</code>
+
+<h1>.x</h1>
+<h2>クラス名を指定した要素にスタイルが適用されます。</h2>
+<h3>例</h3>
+<code>
+    .sample{
+      font-size:18px;
+      color:red;
+    }
+</code>
+
+<h1>#x</h1>
+<h2>基本的には先ほどのクラスと一緒です。idの場合は1つの要素にしか適用されません。</h2>
+<h3>例</h3>
+<code>
+    #sample{
+      font-size:16px;
+    }
+<p>idはjavascriptやページ間の移動の際にも使われます。</p>
+</code>
+
+
+
+
+
+  <!-- other terms and definitions -->
+</dl>
   </body>
 </html>
